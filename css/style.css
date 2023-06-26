@@ -96,14 +96,14 @@ h4 {
 }
 
 .logo2 {
-    display: block;
+    float: left;
     margin-left: 323px;
     width: 182px;
     height: 156px;
 }
 
 .name {
-    display: block;
+    align-items: left;
     margin-right: 100px;
 
 
