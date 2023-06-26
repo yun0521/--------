@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif JP', serif;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/*ヘッダー画像大きさ*/
+.logo {
+    width: 124px;
+    }
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: darkgrey;
+    align-items: center;
+    }
+
+.title {
+        margin-right: auto;
+    }
+
+.menu-item {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    }
+
+.header wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+
+
+/* コンセプト */
+.background{
+    background-color: #f5f5f5;
+    height: 347px;
+
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    height: 62px;
+}
+p {
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+/* 作品 */
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 画像 */
+img {
+    width: 30%;
+    height: 30%;
+    margin: 50px;
+}
+
+ul li {
+    display:flex; 
+    margin-top:40px
+}
+ul li:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+/* 自己紹介 */
+h4 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    height: 85px;
+}
+
+.logo2 {
+    display: block;
+    margin-left: 323px;
+    width: 182px;
+    height: 156px;
+}
+
+.name {
+    display: block;
+    margin-right: 100px;
+
+
+}
+
+
+
